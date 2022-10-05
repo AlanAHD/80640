@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .menu{
     display: flex;
     border: 1px solid;
@@ -20,3 +21,27 @@ a{
 a:hover{
     background:white;
 }
+=======
+.menu{
+    display: flex;
+    border: 1px solid;
+    list-style: none;
+    height: 100%;
+    align-items: center;
+    padding: 0;
+}
+li{
+    width: 40%;
+    background: #4c4c;
+    text-align: center;
+}
+a{
+    display: block;
+    padding: .3em;
+    text-decoration: none;
+    height: 100%;
+}
+a:hover{
+    background:white;
+}
+>>>>>>> d4d7f020d0224b08cb816b28e2bd59e57ff8c39f

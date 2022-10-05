@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ul{
     width: 180px;
     list-style: none;
@@ -20,4 +21,28 @@ a{
 }
 a:hover{
     background: white url(inactiva.png) no-repeat 3px;
+=======
+ul{
+    width: 180px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border: 1px solid green;
+}
+
+li{
+    background: #f4f4f4;
+    border-bottom: 1px solid #fff;
+    border-top: 1px solid #fff;
+}
+a{
+    color: #333;
+    display: block;
+    padding: .2em 0 .2em 1.5em;
+    text-decoration: none;
+    background: url(activa.png)no-repeat 3px;
+}
+a:hover{
+    background: white url(inactiva.png) no-repeat 3px;
+>>>>>>> d4d7f020d0224b08cb816b28e2bd59e57ff8c39f
 }
