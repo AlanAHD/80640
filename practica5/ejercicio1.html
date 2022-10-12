@@ -23,9 +23,18 @@
    
             // }
             var arr= [].slice.call(c);
-            arr.forEach(element => {
-                console.log(element)
-            });
+            // arr.forEach(element => {
+            //     console.log(element)
+            // });
+            let i=0
+            for (let x in c) {
+                if(i<c.length){
+                    c[x].style.color="blue"
+                    i++
+
+                }
+            }
+
         }
     </script>
 </head>
